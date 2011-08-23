@@ -1,0 +1,7 @@
+City.create!(:name => 'Calgary', :country => 'Canada')
+City.create!(:name => 'Vancouver', :country => 'Canada')
+City.create!(:name => 'Kelowna', :country => 'Canada')
+City.create!(:name => 'Halifax', :country => 'Canada')
+City.create!(:name => 'Chicago', :country => 'USA')
+City.create!(:name => 'NY', :country => 'USA')
+City.create!(:name => 'Dhaka', :country => 'Bangladesh')

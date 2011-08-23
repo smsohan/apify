@@ -1,0 +1,40 @@
+Returns a json list of cities
+REQUEST
+GET /cities.json?my_data=1
+application/json
+
+RESPONSE
+application/json; charset=utf-8
+[
+  {
+    "city": {
+      "country": "Bangladesh",
+      "created_at": "2011-08-23T05:20:59Z",
+      "id": 1,
+      "name": "Dhaka",
+      "updated_at": "2011-08-23T05:20:59Z"
+    }
+  }
+]
+Creates a city with json data
+REQUEST
+POST /cities
+text/html
+{
+  "city": {
+    "name": "Toronto",
+    "country": "Canada"
+  }
+}
+
+RESPONSE
+application/json; charset=utf-8
+{
+  "city": {
+    "country": "Canada",
+    "created_at": "2011-08-23T05:20:59Z",
+    "id": 2,
+    "name": "Toronto",
+    "updated_at": "2011-08-23T05:20:59Z"
+  }
+}
